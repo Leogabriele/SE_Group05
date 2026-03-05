@@ -4,6 +4,10 @@
 
 ## Problem Statement  
 
+Images often contain missing, damaged, or limited visual content due to cropping, occlusion, or degradation. Manually restoring or extending such images is time-consuming and requires advanced editing skills.
+
+The Smart Image Inpainting and Outpainting System aims to automatically reconstruct missing regions within an image (inpainting) and intelligently extend the image beyond its original boundaries (outpainting). Using AI-based techniques, the system generates realistic textures and structures while maintaining visual consistency with the original image.
+
 write problem statement 
 
 ### Tech Stack  
@@ -42,32 +46,23 @@ Edit this as per your project
 |  | ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira) |  
 |  | ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code) |  
 
----
-
-## Roles and Responsibilities  
-(Edit this as per your project)
-
-#### **Member 1 (Team Lead)**  
-- **Role:** Project Management, Frontend Development  
-- **Responsibilities:**  
-  - Oversee project progress and delivery  
-  - Develop frontend and manage UI components  
+---`
 
 ### **Team Members**  
 
-#### **Member 2**  
+#### **Member 1(Tanisha)**  
 - **Role:** Frontend Developer, UI Design  
 - **Responsibilities:**  
   - Design and implement user-friendly UI  
   - Collaborate on frontend features and responsiveness  
 
-#### **Member 3**  
+#### **Member 2(Shailza)**  
 - **Role:** Backend Developer, Data Fetching  
 - **Responsibilities:**  
   - Develop backend APIs for data retrieval  
   - Optimize backend performance and security  
 
-#### **Member 4**  
+#### **Member 3(Srushti)**  
 - **Role:** Backend Developer, Data Designing  
 - **Responsibilities:**  
   - Design and manage database architecture  
