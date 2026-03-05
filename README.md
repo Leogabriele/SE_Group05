@@ -1,6 +1,6 @@
 # SE Group 05
 
-# Topic
+# Smart Image Inpainting and Outpainting System
 
 ## Problem Statement  
 
