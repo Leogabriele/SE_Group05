@@ -1,33 +1,42 @@
 # SE Group 05
 
-# Smart Image Inpainting and Outpainting System
+# Smart Satellite Image Inpainting & Outpainting System
 
 ## Problem Statement  
+Satellite images often suffer from missing regions due to cloud cover, sensor errors, or limited capture boundaries. Additionally, satellite imagery is restricted to fixed frames, making it difficult to visualize surrounding areas beyond the captured region.
 
-Images often contain missing, damaged, or limited visual content due to cropping, occlusion, or degradation. Manually restoring or extending such images is time-consuming and requires advanced editing skills.
+Traditional methods for restoring or extending such images require manual intervention, domain expertise, and significant time. These approaches are not scalable for real-time or large-scale applications.
 
-The Smart Image Inpainting and Outpainting System aims to automatically reconstruct missing regions within an image (inpainting) and intelligently extend the image beyond its original boundaries (outpainting). Using AI-based techniques, the system generates realistic textures and structures while maintaining visual consistency with the original image.
+This project aims to develop an intelligent system that:
+  1. Automatically reconstructs missing regions in satellite images using AI-based inpainting
+  2. Expands the visible area beyond the original image using real-world satellite data
+  3. Maintains visual consistency, continuity of roads, terrain, and structures
 
-write problem statement 
+The system combines generative AI with real satellite tile data to provide a practical and efficient solution.
+
+
 
 ### Tech Stack  
 
 (edit this as per your project)
-- **Frontend:** React.js *(for a dynamic and responsive UI)*  
-- **Backend:** Node.js with Express.js *(for API handling and business logic)*  
-- **Authentication:** Firebase Authentication *(for secure user login and account management)*  
-- **Database:** MongoDB *(for storing product and user data, if needed)*  
-- **Cloud Storage:** Firebase Storage *(for managing and hosting product images)*  
-- **Deployment:** Firebase Hosting / Vercel *(for frontend)* and AWS / Heroku *(for backend)*  
+- **Programming Language:** Python
+- **AI Model:** Stable Diffusion Inpainting Pipeline
+- **Frameworks/Libraries:** PyTorch, Diffusers, NumPy, PIL, Matplotlib
+- **Interface:** Jupyter Notebook / Google Colab with ipywidgets
+- **Data Source:** ArcGIS World Imagery MapServer (public tile service)
+- **Hardware:** GPU (T4 / CUDA supported)
 
 ### Expected Outcome  
 Write expected outcome. 
-
----
+- Generate realistic reconstructions of missing regions in satellite images
+- Seamlessly extend images beyond original boundaries using nearby satellite data
+- Provide an interactive interface for users to input location (latitude & longitude)
+- Enable real-time visualization of inpainting and outpainting results
+- Deliver a system that is both AI-driven and grounded in real-world data
 
 ## Hypothesis  
 write hypothesis
-
+If generative AI models like Stable Diffusion are applied to satellite imagery along with real-world spatial data, then it is possible to accurately reconstruct missing regions and extend images while maintaining structural and visual consistency.
 
 ---
 
